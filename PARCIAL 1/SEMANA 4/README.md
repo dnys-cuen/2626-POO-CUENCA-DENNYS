@@ -123,26 +123,29 @@ El archivo `main.py` ejecuta una demostración completa que incluye:
 ## Ejemplos de Uso
 
 ### Crear un producto
+
 ```python
-from modelos.producto import Producto
+from modelos import Producto
 
 hamburguesa = Producto(101, "Hamburguesa", "Plato Fuerte", 12.50)
 print(hamburguesa)  # [101] Hamburguesa (Plato Fuerte) - $12.50 - Disponible
 ```
 
 ### Crear un cliente
+
 ```python
-from modelos.cliente import Cliente
+from modelos import Cliente
 
 cliente = Cliente(1001, "Juan Pérez", "juan@email.com", "555-1234")
 print(cliente)  # [1001] Juan Pérez | Email: juan@email.com | ...
 ```
 
 ### Gestionar el restaurante
+
 ```python
 from servicios.restaurante import Restaurante
-from modelos.producto import Producto
-from modelos.cliente import Cliente
+from modelos import Producto
+from modelos import Cliente
 
 restaurante = Restaurante("Mi Restaurante", "Calle Principal")
 restaurante.agregar_producto(hamburguesa)
