@@ -1,0 +1,14 @@
+{
+    "1001": {
+        "nombre": "Juan Pérez",
+        "correo": "juan@email.com"
+    },
+    "1002": {
+        "nombre": "María García",
+        "correo": "maria@email.com"
+    },
+    "1003": {
+        "nombre": "Marcos Reyes",
+        "correo": "marcos@email.com"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "P001": {
+        "nombre": "Hamburguesa",
+        "categoria": "Platos",
+        "precio": 12.5,
+        "tipo": "Producto"
+    },
+    "B001": {
+        "nombre": "Coca-Cola",
+        "categoria": "Bebidas",
+        "precio": 2.5,
+        "tipo": "Bebida",
+        "tamaño": "Mediano",
+        "tipo_envase": "Botella"
+    },
+    "P002": {
+        "nombre": "Pizza",
+        "categoria": "Platos",
+        "precio": 15.0,
+        "tipo": "Producto"
+    }
+}
