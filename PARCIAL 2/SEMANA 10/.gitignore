@@ -1,0 +1,82 @@
+# Ignorar archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignorar archivos .pyc compilados
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignorar entorno virtual
+venv/
+ENV/
+env/
+.venv
+.env
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Ignorar IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Ignorar archivos de prueba temporales
+test_output/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Ignorar logs
+*.log
+logs/
+
+# Ignorar configuración local
+local_settings.py
+config.local.json
+
+# Ignorar archivos de backup
+*.bak
+*.backup
+*.orig
+
+# Ignorar archivos de base de datos (si se agregan en futuro)
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Ignorar archivos generados
+*.pkl
+*.pickle
+

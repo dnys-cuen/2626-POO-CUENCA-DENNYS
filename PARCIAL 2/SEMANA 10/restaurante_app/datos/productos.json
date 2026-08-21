@@ -1,0 +1,26 @@
+[
+    {
+        "codigo": "P002",
+        "nombre": "Pizza Margherita",
+        "categoria": "Pizzas",
+        "precio": 15.99
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Ensalada César",
+        "categoria": "Ensaladas",
+        "precio": 8.5
+    },
+    {
+        "codigo": "P101",
+        "nombre": "Cerveza Corona",
+        "categoria": "Bebidas",
+        "precio": 3.5
+    },
+    {
+        "codigo": "P102",
+        "nombre": "Tacos de Carne",
+        "categoria": "Comidas",
+        "precio": 8.99
+    }
+]
