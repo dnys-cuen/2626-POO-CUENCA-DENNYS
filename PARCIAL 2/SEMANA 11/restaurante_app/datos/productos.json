@@ -1,0 +1,44 @@
+[
+    {
+        "codigo": "HAMBURGUESA",
+        "nombre": "Hamburguesa Clásica",
+        "categoria": "Platos Principales",
+        "precio": 12.5,
+        "stock": 7
+    },
+    {
+        "codigo": "PIZZA",
+        "nombre": "Pizza Pepperoni",
+        "categoria": "Platos Principales",
+        "precio": 18.0,
+        "stock": 10
+    },
+    {
+        "codigo": "ENSALADA",
+        "nombre": "Ensalada César",
+        "categoria": "Entradas",
+        "precio": 8.5,
+        "stock": 20
+    },
+    {
+        "codigo": "REFRESCO",
+        "nombre": "Refresco de Cola",
+        "categoria": "Bebidas",
+        "precio": 2.5,
+        "stock": 50
+    },
+    {
+        "codigo": "CAFE",
+        "nombre": "Café Espresso",
+        "categoria": "Bebidas",
+        "precio": 3.0,
+        "stock": 30
+    },
+    {
+        "codigo": "POSTRE",
+        "nombre": "Brownie de Chocolate",
+        "categoria": "Postres",
+        "precio": 5.0,
+        "stock": 12
+    }
+]

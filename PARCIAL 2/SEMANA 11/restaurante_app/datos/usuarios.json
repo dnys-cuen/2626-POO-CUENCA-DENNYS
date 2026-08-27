@@ -1,0 +1,23 @@
+[
+    {
+        "identificacion": "123456789",
+        "nombre": "Juan Pérez García",
+        "correo": "juan.perez@email.com"
+    },
+    {
+        "identificacion": "987654321",
+        "nombre": "María López Rodríguez",
+        "correo": "maria.lopez@email.com"
+    },
+    {
+        "identificacion": "555444333",
+        "nombre": "Carlos Álvarez Martínez",
+        "correo": "carlos.alvarez@email.com"
+    },
+    {
+        "identificacion": "111222333",
+        "nombre": "Ana García Sánchez",
+        "correo": "ana.garcia@email.com"
+    }
+]
+

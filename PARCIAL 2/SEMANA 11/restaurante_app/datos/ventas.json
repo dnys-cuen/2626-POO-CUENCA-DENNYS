@@ -1,0 +1,57 @@
+[
+    {
+        "usuario_id": "123456789",
+        "producto_codigo": "HAMBURGUESA",
+        "cantidad": 2
+    },
+    {
+        "usuario_id": "123456789",
+        "producto_codigo": "REFRESCO",
+        "cantidad": 2
+    },
+    {
+        "usuario_id": "987654321",
+        "producto_codigo": "PIZZA",
+        "cantidad": 1
+    },
+    {
+        "usuario_id": "987654321",
+        "producto_codigo": "ENSALADA",
+        "cantidad": 1
+    },
+    {
+        "usuario_id": "555444333",
+        "producto_codigo": "CAFE",
+        "cantidad": 3
+    },
+    {
+        "usuario_id": "555444333",
+        "producto_codigo": "POSTRE",
+        "cantidad": 2
+    },
+    {
+        "usuario_id": "111222333",
+        "producto_codigo": "HAMBURGUESA",
+        "cantidad": 1
+    },
+    {
+        "usuario_id": "111222333",
+        "producto_codigo": "HAMBURGUESA",
+        "cantidad": 2
+    },
+    {
+        "usuario_id": "111222333",
+        "producto_codigo": "HAMBURGUESA",
+        "cantidad": 2
+    },
+    {
+        "usuario_id": "123456789",
+        "producto_codigo": "HAMBURGUESA",
+        "cantidad": 2
+    },
+    {
+        "usuario_id": "111222333",
+        "producto_codigo": "HAMBURGUESA",
+        "cantidad": 2
+    }
+]
