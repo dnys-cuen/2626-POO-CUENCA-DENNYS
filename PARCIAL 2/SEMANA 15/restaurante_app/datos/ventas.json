@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "producto_id": 1,
+    "fecha": "2026-09-26 21:51:18"
+  },
+  {
+    "id": 2,
+    "username": "admin",
+    "producto_id": 2,
+    "fecha": "2026-09-26 21:51:28"
+  },
+  {
+    "id": 3,
+    "username": "camarero",
+    "producto_id": 3,
+    "fecha": "2026-09-26 21:51:35"
+  },
+  {
+    "id": 4,
+    "username": "admin",
+    "producto_id": 4,
+    "fecha": "2026-09-26 21:51:44"
+  }
+]
