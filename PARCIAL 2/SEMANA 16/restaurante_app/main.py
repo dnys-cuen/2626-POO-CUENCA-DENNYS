@@ -1,0 +1,64 @@
+﻿import tkinter as tk
+from pathlib import Path
+
+from servicios.archivo_servicio import ArchivoServicio
+from servicios.restaurante_servicio import RestauranteServicio
+from ui.login_view import LoginView
+from ui.main_view import MainView
+
+BASE_DIR = Path(__file__).resolve().parent
+
+
+class App:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Restaurante App - Semana 16")
+        self.root.geometry("1100x650")
+        self.root.minsize(900, 550)
+        self.root.grid_rowconfigure(0, weight=1)
+        self.root.grid_columnconfigure(0, weight=1)
+
+        archivos = ArchivoServicio(BASE_DIR / "datos")
+        self.servicio = RestauranteServicio(archivos)
+        self.usuario_actual = None
+
+        self.login_view = LoginView(root, self.servicio, self.mostrar_main)
+        self.main_view = MainView(root, self.servicio, self.mostrar_login)
+
+        self.current = None
+        self.mostrar_login()
+
+    def mostrar_login(self):
+        if self.current:
+            self.current.grid_forget()
+        self.usuario_actual = None
+        self.main_view.set_usuario_actual(None)
+        self.login_view.grid(row=0, column=0, sticky="nsew")
+        self.current = self.login_view
+
+    def mostrar_main(self, username=None):
+        if username:
+            self.usuario_actual = username
+        self.main_view.set_usuario_actual(self.usuario_actual)
+        if self.current:
+            self.current.grid_forget()
+        self.main_view.grid(row=0, column=0, sticky="nsew")
+        self.current = self.main_view
+        self.main_view.mostrar_productos()
+
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    try:
+        assets_dir = BASE_DIR / "assets"
+        icon_path = assets_dir / "icon.png"
+        if icon_path.exists():
+            try:
+                root.iconphoto(False, tk.PhotoImage(file=str(icon_path)))
+            except Exception:
+                pass
+    except Exception:
+        pass
+
+    app = App(root)
+    root.mainloop()
